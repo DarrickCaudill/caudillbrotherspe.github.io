@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Caudill Brothers Plumbing & Electrical</title>
+  <meta name="description" content="Plumbing & Electrical services by the Caudill Brothers. Site coming online soon." />
+  <style>
+    :root { --bg:#0b1220; --card:#101b33; --text:#eaf0ff; --muted:#a9b7e3; --accent:#4aa3ff; --accent2:#ff9a3c; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(1200px 600px at 20% 20%, #163160 0%, var(--bg) 45%) fixed;color:var(--text);}
+    .wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px;}
+    .card{max-width:980px;width:100%;background:linear-gradient(180deg, rgba(16,27,51,.92), rgba(16,27,51,.75));
+      border:1px solid rgba(255,255,255,.08); border-radius:20px; padding:28px; box-shadow:0 20px 70px rgba(0,0,0,.45);}
+    .top{display:flex;gap:20px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+    .brand h1{margin:0;font-size:clamp(28px,4vw,44px);letter-spacing:.5px}
+    .tag{margin-top:6px;color:var(--muted);font-size:clamp(14px,1.6vw,16px)}
+    .pillrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+    .pill{padding:10px 12px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);font-weight:600}
+    .pill b{color:var(--accent)}
+    .pill i{color:var(--accent2);font-style:normal}
+    .mid{display:grid;grid-template-columns:1.2fr .8fr;gap:22px;margin-top:22px}
+    .box{padding:18px;border-radius:16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+    .box h2{margin:0 0 10px;font-size:18px}
+    .box p{margin:0 0 10px;color:var(--muted);line-height:1.5}
+    .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-block;padding:12px 14px;border-radius:12px;text-decoration:none;font-weight:700}
+    .btn.primary{background:linear-gradient(90deg,var(--accent),#2f7dff);color:#081027}
+    .btn.secondary{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);color:var(--text)}
+    .fine{margin-top:18px;color:rgba(234,240,255,.65);font-size:13px}
+    @media (max-width:840px){.mid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="card">
+      <div class="top">
+        <div class="brand">
+          <h1>Caudill Brothers</h1>
+          <div class="tag">Plumbing & Electrical • Family-run • Site coming online soon</div>
+          <div class="pillrow">
+            <div class="pill"><b>Plumbing</b> • Repairs • Installs • Service</div>
+            <div class="pill"><i>Electrical</i> • Troubleshooting • Panels • Lighting</div>
+          </div>
+        </div>
+      </div>
+
+      <section class="mid">
+        <div class="box">
+          <h2>What we do</h2>
+          <p>
+            Reliable, professional plumbing and electrical service — built on workmanship and accountability.
+            We’re getting the full website ready now.
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="#" onclick="alert('Add your phone number here when ready!'); return false;">Call / Text</a>
+            <a class="btn secondary" href="#" onclick="alert('Add your service area + email here when ready!'); return false;">Request a Quote</a>
+          </div>
+          <div class="fine">Tip: once you have a real domain, point it here and this becomes your live landing page.</div>
+        </div>
+
+        <div class="box">
+          <h2>Quick credibility line</h2>
+          <p>
+            Licensed & insured (as applicable). Estimates available. Emergency service options (if offered).
+          </p>
+          <p>
+            “Three brothers. One standard: do it right.”
+          </p>
+          <div class="fine">Replace this section with license #s, bonded/insured info, and hours.</div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
